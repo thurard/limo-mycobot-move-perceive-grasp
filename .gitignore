@@ -1,0 +1,40 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+ENV/
+
+# --- ROS2 / colcon (si le dépôt est un jour placé dans un workspace) ---
+install/
+log/
+build/
+
+# --- Modèles / poids YOLO (à télécharger séparément, trop lourds pour git) ---
+*.pt
+*.onnx
+*.engine
+
+# --- Sorties de patrouille (photos, rapports générés à l'exécution) ---
+photos_patrouille/
+rapport_patrouille*/
+*.csv
+detect_couleur.jpg
+
+# --- Divers ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.log
