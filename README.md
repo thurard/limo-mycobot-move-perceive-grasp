@@ -126,7 +126,7 @@ python3 client_bras.py saisir_vision   # le bras cherche la balle et la saisit
 python3 client_bras.py deposer_fixe    # le bras dépose à la position fixe
 ```
 
-### ⚠️ Honnêteté sur l'intégration patrouille ↔ bras
+### Intégration patrouille ↔ bras
 
 L'orchestration entre la patrouille et le bras était **semi-automatique**, et non
 entièrement autonome de bout en bout :
